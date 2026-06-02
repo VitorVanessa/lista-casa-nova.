@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lista de Casa Nova</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f8f5f5;
+    text-align:center;
+}
+
+header{
+    background:#6b1027;
+    color:white;
+    padding:40px 20px;
+}
+
+h1{
+    margin:0;
+}
+
+.frase{
+    font-size:18px;
+    margin-top:15px;
+}
+
+.presente{
+    background:white;
+    margin:15px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.botao{
+    display:inline-block;
+    background:#6b1027;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:8px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Vanessa & Vítor</h1>
+
+<p class="frase">
+Estamos construindo nosso lar com amor.
+Obrigado por fazer parte desse sonho!
+</p>
+</header>
+
+<h2>Lista de Presentes</h2>
+
+<div class="presente">
+<h3>Air Fryer</h3>
+
+<a class="botao"
+href="https://wa.me/5575991518646?text=Olá!%20Gostaria%20de%20presentear%20vocês%20com%20uma%20Air%20Fryer.">
+Escolher este presente
+</a>
+</div>
+
+<div class="presente">
+<h3>Jogo de Panelas</h3>
+
+<a class="botao"
+href="https://wa.me/5575991518646?text=Olá!%20Gostaria%20de%20presentear%20vocês%20com%20um%20Jogo%20de%20Panelas.">
+Escolher este presente
+</a>
+</div>
+
+</body>
+</html>
